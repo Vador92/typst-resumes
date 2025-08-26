@@ -1,4 +1,4 @@
 # typst-resumes
 
 why?
-Typ > text
+Typst > tex
