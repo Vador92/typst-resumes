@@ -1,3 +1,9 @@
+#page details
+page:
+  width: "21cm"
+  height: 29."7cm"
+
+
 #personal
 name: This Works
 name_place: center

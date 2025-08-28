@@ -6,8 +6,14 @@
 #import "dictionaries.typ": *;
 
 // page settings
-#let page_width = 21cm
+#let page_width = 
 #let page_height = 29.7cm
+#let page_margin = 0cm
+
+// page settings
+#let page_setter() = {
+  page(width: page_width, )
+}
 
 // call dictionary function for alignment
 // resume header (personal information)
