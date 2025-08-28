@@ -12,3 +12,18 @@
   bottom: { bottom }
 )
 
+
+// extract 
+#let str_to_length(str, unit) = {
+  let num = float(str)
+  if (unit == "cm"){
+    num * 1cm
+  }
+  else if (unit == "pt"){
+    num * 1pt
+  } // add more units as needed
+  else {
+    num * 1mm
+  }
+}
+
