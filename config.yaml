@@ -9,9 +9,13 @@ page:
     left: 1
     right: 1
 
+#colors (typst accepts hex values as str)
+colors:
+  accent: ADD8E6
+  main: "000"
 
 #personal
-name: This Works
+name: John Doe
 name_place: center
 city: San Francisco
 state: CA

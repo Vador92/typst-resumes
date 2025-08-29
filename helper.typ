@@ -17,7 +17,9 @@
 
 // call dictionary function for alignment
 // resume header (personal information)
-#let resume_header(color: rgb("000") /* Default color black */) = {
+#let resume_name(color: rgb(info.colors.accent) /* Default color black */) = {
   set text(size: 30pt, weight: "bold", fill: color)
   align(align_this.at(info.name_place))[#info.name]
 }
+
+
